@@ -1,0 +1,76 @@
+/* Pizza.css */
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte simples e legível */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+}
+
+/* Cabeçalho da página */
+header {
+    background-color: #f8f8f8; /* Cor vibrante para chamar atenção */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para os títulos */
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center; /* Centraliza os títulos */
+    margin: 10px 0; /* Margem superior/inferior */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #555; /* Cor do texto do parágrafo */
+    margin: 10px auto; /* Centraliza o elemento horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do parágrafo */
+    max-width: 600px; /* Limita a largura do parágrafo */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte legível */
+    padding: 0 20px; /* Adiciona espaçamento lateral */
+}
+
+/* Centraliza a imagem da pizza */
+img {
+    display: block; /* Torna a imagem um bloco */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Imagens responsivas */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* Bordas arredondadas para imagens */
+}
+
+/* Estilo para listas */
+ul, ol {
+    margin: 20px auto; /* Adiciona margem superior/inferior e centraliza horizontalmente */
+    padding-left: 40px; /* Recuo para os marcadores */
+    max-width: 600px; /* Limita a largura da lista */
+}
+
+li {
+    background-color: #fff; /* Fundo branco para contraste */
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    list-style-type: disc; /* Restaura os marcadores padrão */
+}
+
+/* Botões */
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e03e00; /* Cor mais escura ao passar o mouse */
+}
