@@ -1,61 +1,111 @@
 /* style.css */
 
-/* General Reset */
+/* Reset Geral */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
+/* Estilo do Corpo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
     padding: 20px;
 }
 
-/* Header Styling */
+/* Estilo do Cabeçalho */
 header {
     background: #35424a;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
-}
-
-p {
-    margin: 10px 0;
-    color: blue;
-    font-size: 1.2em;
-
-}
-
-/* List Styling */
-ul, ol {
-    margin: 20px 0;
-    padding-left: 40px; /* Adiciona recuo para listas */
-    list-style-position: inside; /* Garante que os marcadores fiquem dentro do contêiner */
-}
-
-li {
-    margin-bottom: 10px; /* Espaçamento entre itens da lista */
-}
-
-/* Main Content Styling */
-main {
-    background: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styling */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo do Parágrafo */
+p {
+    margin: 10px 0 20px;
+    color: #555;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Estilo da Lista */
+ul {
+    margin: 20px auto;
+    padding-left: 0;
+    list-style-type: none;
+    max-width: 600px;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos Links */
+a {
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo do Rodapé */
 footer {
     text-align: center;
     padding: 10px 0;
     background: #35424a;
     color: #ffffff;
     margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para Títulos */
+h1, h2 {
+    color: #35424a;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
 }
