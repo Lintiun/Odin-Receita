@@ -24,20 +24,22 @@ header {
     text-align: center;
 }
 
-/* Navigation Styling */
-nav ul {
-    list-style: none;
-    padding: 0;
+p {
+    margin: 10px 0;
+    color: blue;
+    font-size: 1.2em;
+
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+/* List Styling */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px; /* Adiciona recuo para listas */
+    list-style-position: inside; /* Garante que os marcadores fiquem dentro do contêiner */
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
+li {
+    margin-bottom: 10px; /* Espaçamento entre itens da lista */
 }
 
 /* Main Content Styling */
