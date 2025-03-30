@@ -30,7 +30,7 @@ main {
 
 /* Estilo do Cabeçalho */
 header {
-    background: #35424a;
+    background: #f9f9f9;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -95,7 +95,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #000000;
+    background: #f9f9f9;
     color: #ffffff;
     margin-top: 20px;
     border-radius: 5px;
