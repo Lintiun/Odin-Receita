@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+/* Garante que o body ocupe toda a altura da página */
+html, body {
+    height: 100%;
+}
+
 /* Estilo do Corpo */
 body {
     font-family: 'Arial', sans-serif;
@@ -14,6 +19,13 @@ body {
     background-color: #f9f9f9;
     color: #333;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Faz o conteúdo principal ocupar o espaço disponível */
+main {
+    flex: 1;
 }
 
 /* Estilo do Cabeçalho */
@@ -83,7 +95,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #000000;
     color: #ffffff;
     margin-top: 20px;
     border-radius: 5px;
